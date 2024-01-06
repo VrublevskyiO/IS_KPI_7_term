@@ -1,0 +1,82 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100vh;
+    background-color: #9DD18E;
+}
+
+.container {
+    text-align: right;
+    color: #333;
+    margin-right: 20px;
+    flex-grow: 1; /* Додано flex-grow для того, щоб контейнер займав весь вільний простір */
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px; /* Змінено margin-left на 20px */
+}
+
+
+h1 {
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    margin: 0;
+    color: #000;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    width: 281px;
+    height: 93px;
+    font-size: 36px;
+    line-height: 42px;
+    cursor: pointer;
+    background-color: #35592B;
+    color: #fff;
+    border: 1px solid #35592B;
+    border-radius: 45px;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #2E4A23;
+}
+
+footer {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    background: #fff;
+    color: #000;
+    padding: 0px;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+

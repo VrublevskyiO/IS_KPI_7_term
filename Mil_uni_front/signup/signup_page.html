@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="/signup/style/signup_page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+</head>
+<body>
+    <h3>Маєте акаунт? <a href="/login/login_page.html"><b>Увійти</b></a></h3>
+
+    <div class="signup-container">
+        <h1>Реєстрація</h1>
+        <form action="#" method="post" class="login-form">
+            <label for="username">Прізвище, імʼя та по-батькові:</label>
+            <div class="input-container">
+                <input type="text" id="username" name="username" required placeholder="Шевченко Петро Петрович">
+            </div>
+
+            <label for="mil_id">Військова частина:</label>
+            <div class="input-container">
+                <input type="text" id="password" name="text" required placeholder="A1234">
+            </div>
+
+            <label for="status">Статус:</label>
+            <div class="input-container">
+                <select name="languages" id="lang">
+                    <option value="TopCommand">Найвищий Командний Рівень</option>
+                    <option value="Operational-Strategic">Оперативно-Стратегічний Рівень</option>
+                    <option value="Tactical">Тактичний</option>
+                    <option value="Operational-Tactical">Оперативно-Тактичний</option>
+                    <option value="Information-Analytical">Інформаційно-Аналітичний Рівень</option>
+                    <option value="CommunicationandLiaison">Комунікації та Зв'язок</option>
+                  </select>
+            </div>
+
+
+            <label for="email">Електронна пошта (логін):</label>
+            <div class="input-container">
+                <input type="email" id="email" name="email" required placeholder="email@gmail.com">
+            </div>
+
+            <label for="password">Пароль:</label>
+            <div class="input-container">
+                <input type="password" id="password" name="password" required placeholder="12345678">
+            </div>
+
+            <button type="submit">Увійти</button>
+        </form>
+        
+    </div>
+    <script src="/signup/js/signup_page.js"></script>
+
+</body>
+</html>

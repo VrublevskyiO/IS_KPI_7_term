@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редагування наявної техніки</title>
+    <link rel="stylesheet" href="/edit_exist_tech/style/edit_exist_tech_page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+</head>
+<header>
+    <h1>Редагування наявної техніки</h1>
+</header>
+
+<body>
+
+    <div class="signup-container">
+        <form action="#" method="post" class="form">
+            <div class="block">
+        
+                <div class="input-container">
+                    <label for="techName">Назва техніки</label>
+                    <input type="text" id="techName" name="techName" required placeholder="АК-47">
+                </div>
+        
+                <div class="input-container">
+                    <label for="category">Категорія</label>
+                    <input type="text" id="category" name="category" required placeholder="Стрілецька зброя">
+                </div>
+        
+                <div class="input-container">
+                    <label for="techSpecs">Технічні характеристики</label>
+                    <input type="text" id="techSpecs" name="techSpecs" required placeholder="Технічні характеристики">
+                </div>
+        
+                <div class="input-container">
+                    <label for="techWeight">Маса техніки</label>
+                    <select name="techWeight" id="techWeight">
+                        <option value="Легка">Легка</option>
+                        <option value="Середня">Середня</option>
+                        <option value="Важка">Важка</option>
+                        <option value="Суперважка">Суперважка</option>
+                    </select>
+                </div>
+        
+                <div class="input-container">
+                    <label for="regNumber">Реєстраційний номер</label>
+                    <input type="text" id="regNumber" name="regNumber" required placeholder="67374837">
+                </div>
+        
+            </div>
+        
+            <div class="block">
+                <div class="input-container">
+                    <label for="techStatus">Стан</label>
+                    <input type="text" id="techStatus" name="techStatus" required placeholder="Нова">
+                </div>
+        
+                <div class="input-container">
+                    <label for="location">Місце розташування</label>
+                    <input type="text" id="location" name="location" required placeholder="Київ">
+                </div>
+        
+                <div class="input-container">
+                    <label for="lastCheck">Останній тех.огляд</label>
+                    <input type="text" id="lastCheck" name="lastCheck" required placeholder="23.11.2023">
+                </div>
+        
+                <div class="input-container">
+                    <label for="contact">Контакт для звернення</label>
+                    <input type="email" id="contact" name="contact" required placeholder="email@gmail.com">
+                </div>
+            </div>
+        
+            <div class="block">
+                <div class="input-container">
+                    <label for="notes">Примітки</label>
+                    <input class="note" type="text" id="notes" name="notes" required placeholder="Примітки">
+                </div>
+            </div>
+        </form>
+        
+        <button type="submit">Зберегти зміни</button>
+    </div>
+
+</body>
+</html>

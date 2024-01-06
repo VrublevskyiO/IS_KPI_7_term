@@ -1,0 +1,97 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 100px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9DD18E; 
+}
+
+.block {
+    
+    flex-direction: row;
+}
+
+.signup-container {
+    text-align: center;
+    color: #333;
+    background-color: #35592B;
+    border-radius: 45px;
+    margin: auto;
+
+    
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+  
+   
+}
+
+h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: right;
+}
+
+.form {
+    display: flex;
+    max-width: auto;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+}
+
+.input-container {
+    position: center;
+    display:wrap;
+}
+
+
+input, select {
+    display: block;
+
+    height: 93px;
+    font-size: 36px;
+    line-height: 42px;
+    background-color: #35592B;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 45px;
+    margin: 30px 30px;
+    padding-left: 20px; 
+}
+
+select {
+   width: 85%;
+    margin: 30px 40px;
+    padding-left: 40px; 
+  }
+
+.note{
+    width: auto;
+    height: 400px;
+}
+
+button {
+    margin: 30px 30px;
+    padding: 0px 20px;
+    width: 320px;
+    height: 93px;
+    font-size: 36px;
+    line-height: 42px;
+    cursor: pointer;
+    background-color: #35592B;
+    color: #fff;
+    border: 5px solid #9DD18E;
+    border-radius: 45px;
+}
+
